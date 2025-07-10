@@ -5,7 +5,7 @@ A voice-driven Chrome extension that enables users to speak in Hindi and automat
 ##  Features
 
 -  **Live Voice Input**: Record your Hindi message with a single click.
--  **Google Speech-to-Text**: Transcribes Hindi audio into text using Google's free tier API.
+-  **Google Speech-to-Text**: Transcribes Hindi audio into text using Google's API.
 -  **Gemini Integration**: Automatically translates and formats your text into a polished English email in a tone of your choice (formal, casual, urgency).
 -  **Auto Gmail Insert**: Preview the email and directly open Gmail with subject and body prefilled.
 -  **15-second Countdown Timer**: Visual timer with stop button for better control.
