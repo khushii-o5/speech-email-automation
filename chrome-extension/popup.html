@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hindi to English Email</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Hindi to English Email Assistant</h2>
+
+    <div class="controls">
+      <button id="micBtn">Start Recording</button>
+      <button id="stopBtn">Stop</button>
+
+      <div id="countdown"></div>
+
+     
+      <label for="tone">Select Tone:</label>
+      <select id="tone">
+        <option value="formal">Formal</option>
+        <option value="friendly">Friendly</option>
+        <option value="apologetic">Apologetic</option>
+        <option value="urgent">Urgent</option>
+        <option value="neutral">Neutral</option>
+      </select>
+    </div>
+
+    <div id="loading" class="loading"> </div>
+
+    <h3 id="preview">Email Preview:</h3>
+    <div id="previewBox" class="preview-box"></div>
+    
+    <button id="insertEmail" class="insert-btn">Insert into Gmail</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
