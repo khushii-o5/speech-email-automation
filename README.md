@@ -19,4 +19,4 @@ A voice-driven Chrome extension that enables users to speak in Hindi and automat
 
 ##  Status
 
- This project is **under active development**. The extension is functional locally and will be deployed on the Chrome Web Store after backend deployment.
+ This project is **under active development**. The extension is functional locally and will be deployed on the Chrome Web Store.
