@@ -17,6 +17,46 @@ A voice-driven Chrome extension that enables users to speak in Hindi and automat
 - **Backend**: Flask (Python)
 - **APIs**: Google Speech-to-Text API, Gemini API
 
+
+## Getting Started (Local Setup)
+
+### 1. Clone the Repo
+
+- git clone https://github.com/khushii-o5/speech-email-automation.git
+- cd speech-email-automation
+
+### 2. Backend Setup
+
+- cd flask-backend
+- Install dependencies :
+pip install -r requirements.txt
+
+### 3. Add Environment Variables
+
+Create a .env file in flask-backend:
+
+- GOOGLE_SPEECH_API_KEY=your_google_api_key_here
+- GEMINI_API_KEY=your_gemini_api_key_here
+- (Don't commit .env — it’s already added to .gitignore.)
+
+### 4. Run the Backend Server
+
+python app.py
+
+### 5. Chrome Extension Setup
+   
+- Go to chrome://extensions/
+- Enable Developer Mode
+- Click Load Unpacked
+- Select the chrome-extension folder
+
+### Note
+
+- Requires active internet to call Google & Gemini APIs
+- Not deployed to Chrome Web Store yet
+- Backend must be running locally for full functionality
+
+
 ##  Status
 
  This project is **under active development**. The extension is functional locally and will be deployed on the Chrome Web Store.
